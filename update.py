@@ -819,7 +819,7 @@ def main():
                 action_type = 'Investigative Report' if is_media else get_action_type(title, search_all)
                 tags = generate_tags(search_all)
 
-                # HHS-OIG entries: recategorize by link domain
+                # HHS-OIG entries: recategorize by link domain and content
                 actual_agency = feed['agency']
                 if feed['agency'] == 'HHS-OIG' and link:
                     # DOJ press releases → categorize as DOJ
@@ -828,6 +828,9 @@ def main():
                     # State AG sites → skip entirely (dashboard is federal-only)
                     elif any(d in link for d in ('attorneygeneral.', 'ag.gov', 'mass.gov', 'state.')):
                         continue
+                    # Criminal/civil enforcement outcomes on oig.hhs.gov are DOJ prosecutions
+                    elif re.search(r'sentenc|guilty plea|plead[s ]? guilty|convict|indict|charg|arrest|prison|ordered to pay|jury find|agrees to pay|consent judgment|settlement|resolve.*allegations', title.lower()):
+                        actual_agency = 'DOJ'
 
                 id_prefix = 'media' if is_media else re.sub(r'\W', '-', actual_agency.lower())
                 link_label = f"{feed['name']} Report" if is_media else f"{actual_agency} Press Release"

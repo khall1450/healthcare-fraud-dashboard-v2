@@ -3335,7 +3335,7 @@
     {
       "id": "hhs-oig-2026-03-13-san-diego-tubi-connect-11m",
       "date": "2026-03-13",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "type": "Criminal Enforcement",
       "title": "San Diego Medical Center Shut Down: Kim Huynh Charged with $11M Medicare Fraud, Practicing Medicine Without a License",
       "description": "San Diego County DA, FBI, and HHS-OIG shut down Tubi Connect Inc., a neurofeedback clinic operated by Kim Huynh, 51, who was arrested for billing Medicare and insurers more than $11 million for tests and treatments not covered or not provided. Huynh directed billers to submit claims for EEG scans (used to diagnose epilepsy/seizures) rather than the QEEG scans her clinic actually performed, because QEEGs lack Medicare/insurance coverage. Unlicensed technicians performed scans. Medicare was billed over $10 million ($4.6M paid); private insurers billed $600K+ ($100K+ paid). Huynh also charged with money laundering and practicing medicine without a license. Bail set at $750,000.",
@@ -3343,7 +3343,7 @@
       "amount_numeric": 11000000,
       "officials": [],
       "link": "https://oig.hhs.gov/fraud/enforcement/da-fbi-and-us-department-of-health-human-services-office-of-the-inspector-general-shut-down-medical-center-committing-healthcare-fraud/",
-      "link_label": "HHS-OIG Enforcement",
+      "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
         "Medicare",
@@ -4682,7 +4682,7 @@
     {
       "id": "hhs-oig-2026-03-23-1194120255",
       "date": "2026-03-23",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "type": "Criminal Enforcement",
       "title": "Alabama Doctor Sentenced to Over One Year in Prison for $2.7 Million Telemedicine Health Care Fraud Scheme",
       "description": "Tommie Robinson, a 44-year-old Alabama doctor, was sentenced to 16 months in prison for operating a telemedicine fraud scheme that defrauded healthcare programs of $2.7 million. Robinson submitted claims for medically unnecessary durable medical equipment and genetic testing through telemedicine services. He pleaded guilty to one count of health care fraud and was ordered to pay $2,784,733.49 in restitution.",
@@ -4690,7 +4690,7 @@
       "amount_numeric": 2700000.0,
       "officials": [],
       "link": "https://oig.hhs.gov/fraud/enforcement/alabama-doctor-sentenced-to-over-one-year-in-prison-for-27-million-telemedicine-health-care-fraud-scheme/",
-      "link_label": "HHS-OIG Press Release",
+      "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
         "Medicare",
@@ -4708,7 +4708,7 @@
     {
       "id": "hhs-oig-2026-03-23-2528000540",
       "date": "2026-03-23",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "type": "Criminal Enforcement",
       "title": "Florida Doctor Pleads Guilty to Making False Statements in Connection with Multi-Million-Dollar Health Care Fraud Scheme",
       "description": "Simon Grinshteyn, 52, of Florida, pleaded guilty to one count of making false statements relating to health care matters. Grinshteyn signed orders for medically unnecessary genetic testing and durable medical equipment without having any direct provider-patient relationship, causing Medicare to pay over $3.1 million in fraudulent claims. Sentencing is scheduled for June 24, 2026.",
@@ -4716,7 +4716,7 @@
       "amount_numeric": 3100000,
       "officials": [],
       "link": "https://oig.hhs.gov/fraud/enforcement/florida-doctor-pleads-guilty-to-making-false-statements-in-connection-with-multi-million-dollar-health-care-fraud-scheme/",
-      "link_label": "HHS-OIG Press Release",
+      "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
         "Medicare",
@@ -4733,7 +4733,7 @@
     {
       "id": "hhs-oig-2026-03-19-827656511",
       "date": "2026-03-19",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "type": "Criminal Enforcement",
       "title": "Mississippi Man Ordered to Pay $31 Million for Role in Healthcare Kickback Scheme",
       "description": "Robert L. Crites, 67, of Batesville, Mississippi, was ordered to pay $31,039,134.82 in a federal judgment for orchestrating an illegal kickback scheme. Crites, through his companies Health Services Plus and TriCom LLC, identified and referred patients to Cloverland Pharmacy in Alabama, primarily targeting TRICARE beneficiaries. The pharmacy compensated Crites for each referral in violation of the Anti-Kickback Statute and False Claims Act.",
@@ -4741,7 +4741,7 @@
       "amount_numeric": 31000000,
       "officials": [],
       "link": "https://oig.hhs.gov/fraud/enforcement/mississippi-man-ordered-to-pay-31-million-for-role-in-healthcare-kickback-scheme/",
-      "link_label": "HHS-OIG Press Release",
+      "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
         "TRICARE",
@@ -4761,7 +4761,7 @@
     {
       "id": "hhs-oig-2026-03-18-1882309317",
       "date": "2026-03-18",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "type": "Civil Action",
       "title": "Consent Judgment Entered Against Bucks County Company Resolving Allegations of False Claims for Billing Group Art Classes in Assisted Living and Adult Day Facilities as Occupational Therapy",
       "description": "A consent judgment was entered against Segal Arts LLC and owner Irina Segal of Bucks County, Pennsylvania, for submitting false Medicare claims for one-on-one occupational therapy services that were actually group art-and-crafts sessions at assisted living and adult day facilities in Pennsylvania and New Jersey. The company billed Medicare for medically necessary therapeutic exercises that were never delivered.",
@@ -4769,7 +4769,7 @@
       "amount_numeric": 0,
       "officials": [],
       "link": "https://oig.hhs.gov/fraud/enforcement/consent-judgment-entered-against-bucks-county-company-resolving-allegations-of-false-claims-for-billing-group-art-classes-in-assisted-living-and-adult-day-facilities-as-occupational-therapy/",
-      "link_label": "HHS-OIG Press Release",
+      "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
         "Medicare",
@@ -4856,7 +4856,7 @@
     {
       "id": "hhs-oig-2026-03-27-2576072021",
       "date": "2026-03-27",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "type": "Criminal Enforcement",
       "title": "Telemedicine Company Owner Pleads Guilty to $46M Medicare Fraud Scheme",
       "description": "The owner of a telemedicine company pleaded guilty today to organizing and leading a $46.2 million Medicare fraud conspiracy that spanned more than six years. According to court documents, Christopher Harwood, 43, of Fort Lauderdale, Florida, admitted that he owned and operated a telemedicine company called TelevisitMD. Harwood and his co-conspirators targeted Medicare patients through aggressive telemarketing campaigns, inducing them to accept orthotic braces and genetic tests that they did not need. Harwood paid doctors to approve orders for these braces and genetic tests.",
@@ -4864,7 +4864,7 @@
       "amount_numeric": 46200000.0,
       "officials": [],
       "link": "https://oig.hhs.gov/fraud/enforcement/telemedicine-company-owner-pleads-guilty-to-46m-medicare-fraud-scheme/",
-      "link_label": "HHS-OIG Press Release",
+      "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
         "Medicare",
@@ -4880,7 +4880,7 @@
     {
       "id": "hhs-oig-2026-03-26-639819139",
       "date": "2026-03-26",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "type": "Civil Action",
       "title": "OB/GYN Physician Agrees to Pay $507,500 to Resolve False Claims Act Allegations Connected to Fraudulent Prescription Scheme",
       "description": "Baltimore, Maryland – A Maryland gynecologist agreed to a settlement in connection with federal False Claims Act violation allegations. Valinda R. Nwadike, MD, agreed to pay the United States $507,500 to resolve allegations for her role in a telemarketing scheme designed to defraud Medicare and TRICARE. U.S. Attorney Kelly O.",
@@ -4888,7 +4888,7 @@
       "amount_numeric": 0,
       "officials": [],
       "link": "https://oig.hhs.gov/fraud/enforcement/obgyn-physician-agrees-to-pay-507500-to-resolve-false-claims-act-allegations-connected-to-fraudulent-prescription-scheme/",
-      "link_label": "HHS-OIG Press Release",
+      "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
         "Medicare",
@@ -4904,7 +4904,7 @@
     {
       "id": "hhs-oig-2026-03-26-3027135574",
       "date": "2026-03-26",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "type": "Criminal Enforcement",
       "title": "Federal Jury Finds Mother and Daughter Guilty of Medicare Fraud Scheme and Payment of Illegal Kickbacks",
       "description": "SAN DIEGO – A federal jury today convicted a mother and daughter from Melbourne, Florida, of multiple counts of health care fraud, payment of illegal kickbacks, and conspiracy to commit those offenses. The mother, Cindy Justice, was the owner and president of PureScience Rx, a pharmacy located in Poway. The daughter, Ashleigh Davis, was the operations manager at PureScience Rx and was a licensed pharmacy technician.",
@@ -4912,7 +4912,7 @@
       "amount_numeric": 0,
       "officials": [],
       "link": "https://oig.hhs.gov/fraud/enforcement/federal-jury-finds-mother-and-daughter-guilty-of-medicare-fraud-scheme-and-payment-of-illegal-kickbacks/",
-      "link_label": "HHS-OIG Press Release",
+      "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
         "Medicare",
@@ -4927,7 +4927,7 @@
     {
       "id": "hhs-oig-2026-03-25-3742570485",
       "date": "2026-03-25",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "type": "Civil Action",
       "title": "Team Rehab Physical Therapy Agrees to Pay Nearly $5 Million To Resolve False Claims Act Allegations Related to Fraudulent Billing Scheme",
       "description": "DETROIT - United States Attorney Jerome F. Gorgon Jr. announced today that Team Rehabilitation Services, LLC (“Team Rehab”), which operates approximately 140 physical therapy clinics in Michigan, Illinois, Indiana, Wisconsin, and Georgia, has agreed to pay $4,969,494 to settle allegations that it violated the False Claims Act by submitting false claims for payment for physical therapy services to several federal healthcare programs. Read more on www.justice.gov Action Details Date: March 25, 2026 Agency: U.S.",
@@ -4935,7 +4935,7 @@
       "amount_numeric": 5000000.0,
       "officials": [],
       "link": "https://oig.hhs.gov/fraud/enforcement/team-rehab-physical-therapy-agrees-to-pay-nearly-5-million-to-resolve-false-claims-act-allegations-related-to-fraudulent-billing-scheme/",
-      "link_label": "HHS-OIG Press Release",
+      "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
         "Billing Fraud",
@@ -4949,7 +4949,7 @@
     {
       "id": "hhs-oig-2026-03-27-3690155247",
       "date": "2026-03-27",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "type": "Civil Action",
       "title": "Texas Fugitive Apprehended and Sentenced to Over 12 Years in Prison for $61M Telemarketing Fraud Scheme Targeting Medicare Beneficiaries",
       "description": "A Texas man was sentenced Wednesday to 150 months in prison and two years of supervised release for organizing and leading a $61.5 million health care fraud and wire fraud conspiracy in which thousands of Medicare beneficiaries who were the victims of deceptive telemarketing were sent thousands of orthotic braces, foot baths, and genetic tests they did not need.",
@@ -4957,7 +4957,7 @@
       "amount_numeric": 61500000.0,
       "officials": [],
       "link": "https://oig.hhs.gov/fraud/enforcement/texas-fugitive-apprehended-and-sentenced-to-over-12-years-in-prison-for-61m-telemarketing-fraud-scheme-targeting-medicare-beneficiaries/",
-      "link_label": "HHS-OIG Press Release",
+      "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
         "Medicare",
@@ -4973,7 +4973,7 @@
     {
       "id": "hhs-oig-2026-03-24-4189513151",
       "date": "2026-03-24",
-      "agency": "HHS-OIG",
+      "agency": "DOJ",
       "type": "Criminal Enforcement",
       "title": "Larchmont Woman Sentenced to Nearly 3 Years in Federal Prison for Her Role in Hospice and Diagnostic Testing Fraud that Conned Medicare",
       "description": "LOS ANGELES – A woman from the Larchmont area of Los Angeles was sentenced today to 35 months in federal prison for defrauding Medicare out of more than $14 million by submitting fraudulent claims for hospice care and diagnostic testing services that were either unnecessary or not provided at all. Sophia Shaklian, 38, was sentenced by United States District Judge Stanley Blumenfeld Jr., who also ordered her to pay $14,103,043 in restitution. Shaklian pleaded guilty in November 2025 to one count of health care fraud.",
@@ -4981,7 +4981,7 @@
       "amount_numeric": 14000000.0,
       "officials": [],
       "link": "https://oig.hhs.gov/fraud/enforcement/larchmont-woman-sentenced-to-nearly-3-years-in-federal-prison-for-her-role-in-hospice-and-diagnostic-testing-fraud-that-conned-medicare/",
-      "link_label": "HHS-OIG Press Release",
+      "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
         "Medicare",
