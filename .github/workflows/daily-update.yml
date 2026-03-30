@@ -1,0 +1,74 @@
+name: Daily Fraud Dashboard Update
+
+on:
+  schedule:
+    # Runs at 7:17 AM UTC daily (off-minute to avoid load spikes)
+    - cron: '17 7 * * *'
+  workflow_dispatch: # Allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 feedparser lxml
+
+      - name: Run update script
+        run: python update.py --no-browser
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet data/actions.json; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create pull request
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE=$(date +%Y-%m-%d)
+          BRANCH="auto-update/${DATE}"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git checkout -b "$BRANCH"
+          git add data/actions.json data/pending.json
+          git commit -m "Auto-update: new enforcement actions for ${DATE}"
+          git push origin "$BRANCH"
+
+          # Count new entries
+          NEW_COUNT=$(git diff main...HEAD --stat data/actions.json | grep -oP '\d+ insertion' | grep -oP '\d+' || echo "unknown")
+
+          gh pr create \
+            --title "Daily update: new enforcement actions (${DATE})" \
+            --body "$(cat <<'EOF'
+          ## Auto-fetched enforcement actions
+
+          The daily scraper found new entries from federal agency sources. Please review the changes below before merging.
+
+          **Review checklist:**
+          - [ ] Entries are real enforcement actions (not duplicates or irrelevant)
+          - [ ] Descriptions look accurate
+          - [ ] Tags are appropriate
+
+          > Merge to publish to the live dashboard. Close to discard.
+          EOF
+          )"
