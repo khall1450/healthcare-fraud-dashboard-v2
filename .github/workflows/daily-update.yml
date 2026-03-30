@@ -44,7 +44,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           DATE=$(date +%Y-%m-%d)
-          BRANCH="auto-update/${DATE}"
+          RUN_ID=${{ github.run_number }}
+          BRANCH="auto-update/${DATE}-${RUN_ID}"
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
