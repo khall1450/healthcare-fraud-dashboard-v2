@@ -1,0 +1,83 @@
+name: Daily Media Investigations Update
+
+on:
+  schedule:
+    - cron: '42 8 * * *'   # 8:42 AM UTC daily (separate from enforcement at 7:17)
+  workflow_dispatch:         # Allow manual trigger
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: pip install requests beautifulsoup4 feedparser lxml
+
+    - name: Run media scraper
+      run: python update_media.py
+
+    - name: Check for changes
+      id: changes
+      run: |
+        if git diff --quiet data/media.json; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+        else
+          echo "changed=true" >> $GITHUB_OUTPUT
+          # Extract new story titles for PR body
+          git diff data/media.json | grep '^\+.*"title"' | sed 's/.*"title": "//;s/",$//' | head -20 > /tmp/new_titles.txt
+        fi
+
+    - name: Create pull request
+      if: steps.changes.outputs.changed == 'true'
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        DATE=$(date +%Y-%m-%d)
+        BRANCH="media-update/${DATE}-${GITHUB_RUN_ID}"
+
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
+        git checkout -b "$BRANCH"
+        git add data/media.json
+        git commit -m "Auto-update: new media investigations for ${DATE}"
+        git push origin "$BRANCH"
+
+        # Build PR body with story titles
+        STORIES=""
+        if [ -f /tmp/new_titles.txt ]; then
+          while IFS= read -r line; do
+            STORIES="${STORIES}- ${line}\n"
+          done < /tmp/new_titles.txt
+        fi
+
+        gh pr create \
+          --title "Media update: new investigative reports (${DATE})" \
+          --body "$(cat <<EOF
+        ## Auto-fetched investigative reports
+
+        The media scraper found new stories from major news outlets. Please review before merging.
+
+        **New stories found:**
+        $(cat /tmp/new_titles.txt 2>/dev/null | sed 's/^/- /' || echo "See files changed for details")
+
+        **Review checklist:**
+        - [ ] Stories are real investigative reports (not opinion pieces or briefs)
+        - [ ] Descriptions are accurate
+        - [ ] Tags and related agencies are appropriate
+        - [ ] No duplicates of existing entries
+
+        > Merge to publish to the live dashboard. Close to discard.
+        EOF
+        )"
