@@ -1445,7 +1445,7 @@
       "type": "Criminal Enforcement",
       "title": "Texas Orthopedic Surgeon Dr. Michael Taba Sentenced to 8.5 Years for $145M DOL Workers' Comp Prescription Fraud",
       "description": "Dr. Michael Taba, of McKinney, Texas, was sentenced to 102 months (8.5 years) in prison and ordered to pay over $13 million in restitution following his November 2023 conviction for conspiracy to commit health care fraud and three counts of health care fraud. Taba accepted bribes from pharmacy owners to prescribe medically unnecessary compound creams to injured federal workers. From May 2014 to March 2017, pharmacies billed the Department of Labor's Office of Workers' Compensation Programs and Blue Cross Blue Shield more than $145 million and received more than $90 million for Taba-referred prescriptions.",
-      "amount": "$145M",
+      "amount": "$145M+",
       "amount_numeric": 145000000,
       "officials": [
         "A. Tysen Duva (AAG, Criminal Division)"
@@ -2000,7 +2000,7 @@
       "type": "Criminal Enforcement",
       "title": "California Hospice Fraudster Petros Fichidzhyan Sentenced to 12 Years for $17M Medicare Fraud",
       "description": "Petros Fichidzhyan, 44, of Granada Hills, California was sentenced to 12 years in prison and ordered to pay $17,129,060 in restitution for operating sham hospice companies and a fraudulent home health care agency that defrauded Medicare of more than $17 million. Fichidzhyan and co-conspirators used stolen identities of foreign nationals as purported hospice owners and billed for services not provided. Two homes purchased with fraud proceeds were forfeited.",
-      "amount": "$17M",
+      "amount": "$17M+",
       "amount_numeric": 17000000.0,
       "officials": [],
       "link": "https://www.justice.gov/opa/pr/california-man-sentenced-12-years-imprisonment-connection-17-m-medicare-fraud-schemes",
@@ -4159,7 +4159,7 @@
       "type": "Criminal Enforcement",
       "title": "Home Health Care Operator Admits Defrauding Missouri Medicaid",
       "description": "Camille S. Childress, 41, of St. Louis County, pleaded guilty to one count of health care fraud for defrauding Missouri Medicaid through her home health care company, Inspiring Angels LLC. Childress concealed her ownership of the company due to a 2012 criminal conviction and submitted fraudulent claims for home health care services that were never provided. Missouri Medicaid paid at least $174,496 on false claims submitted in 2021 and 2022, though Childress was originally accused of defrauding the program out of more than $3 million over more than a decade. She faces up to 10 years in prison and fines up to $250,000, with sentencing scheduled for June 16, 2026.",
-      "amount": "$174,496",
+      "amount": "$174,496+",
       "amount_numeric": 174496.0,
       "officials": [],
       "link": "https://www.justice.gov/usao-edmo/pr/home-health-care-operator-admits-defrauding-missouri-medicaid",
