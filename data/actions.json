@@ -283,25 +283,6 @@
       "entities": []
     },
     {
-      "id": "doj-2026-01-fraud-enforcement-division",
-      "date": "2026-01-05",
-      "agency": "DOJ",
-      "type": "Structural/Organizational",
-      "title": "New DOJ Division for National Fraud Enforcement Created",
-      "description": "The administration announced the creation of a new DOJ Division for National Fraud Enforcement, designed to coordinate fraud enforcement across federal programs. The announcement explicitly referenced health care fraud enforcement activity in Minnesota. Health care fraud is expected to be a top priority.",
-      "amount": "",
-      "amount_numeric": 0.0,
-      "officials": [],
-      "link": "https://www.whitehouse.gov/fact-sheets/2026/01/fact-sheet-president-donald-j-trump-establishes-new-department-of-justice-division-for-national-fraud-enforcement/",
-      "link_label": "White House Fact Sheet",
-      "social_posts": [],
-      "tags": [],
-      "state": "MN",
-      "source_type": "official",
-      "auto_fetched": false,
-      "entities": []
-    },
-    {
       "id": "cms-2026-01-minnesota-audit-announcement",
       "date": "2026-01-06",
       "agency": "CMS",
@@ -414,7 +395,11 @@
       "link": "https://www.cbsnews.com/news/trump-anti-fraud-task-force-targeting-california-jd-vance/",
       "link_label": "CBS News Report",
       "social_posts": [],
-      "tags": [],
+      "tags": [
+        "Medicaid",
+        "Medicare",
+        "Program Integrity"
+      ],
       "state": "CA",
       "source_type": "news",
       "auto_fetched": false,
@@ -1233,7 +1218,8 @@
       "social_posts": [],
       "tags": [
         "Medicaid",
-        "Medicare"
+        "Medicare",
+        "Program Integrity"
       ],
       "state": null,
       "source_type": "official",
@@ -2517,7 +2503,7 @@
       "id": "legislation-2025-06-06-presidential-memo-medicaid-fraud",
       "date": "2025-06-06",
       "agency": "White House",
-      "type": "Executive Order",
+      "type": "Presidential Memorandum",
       "title": "Presidential Memorandum: Eliminating Waste, Fraud, and Abuse in Medicaid",
       "description": "President Trump issued a Presidential Memorandum directing HHS and CMS to eliminate waste, fraud, and abuse in Medicaid. Orders alignment of Medicaid payment rates with Medicare rates where legally possible. Targets state-directed payment programs viewed as inflating reimbursement beyond Medicare levels.",
       "amount": "",
