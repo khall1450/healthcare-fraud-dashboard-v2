@@ -764,6 +764,10 @@ def main():
     log("Loading existing data...")
     data = load_json(DATA_FILE, {"metadata": {"last_updated": "", "version": "1.0"}, "actions": []})
 
+    # Cutoff: use last_scraped (set by scraper only), falling back to last_updated for legacy data
+    last_scraped_raw = data["metadata"].get("last_scraped") or data["metadata"].get("last_updated", "")
+    last_scraped_date = last_scraped_raw[:10] if last_scraped_raw else "2025-01-01"
+    log(f"Last scraped date: {last_scraped_date} — skipping entries before this date")
 
     # Dedup sets
     existing_links = set()
@@ -825,8 +829,10 @@ def main():
                 if not re.match(r'^\d{4}-\d{2}-\d{2}$', date_str):
                     date_str = parse_date(date_str)
 
-                # Enforce Jan 2025 floor
+                # Enforce Jan 2025 floor and last-scraped cutoff
                 if date_str < '2025-01-01':
+                    continue
+                if date_str < last_scraped_date:
                     continue
 
                 # Use full detail text if available (from scrapers that fetch detail pages)
@@ -886,8 +892,11 @@ def main():
         except Exception as e:
             log(f"  WARNING: {feed['name']} - {e}")
 
-    # Update metadata
-    data["metadata"]["last_updated"] = datetime.now().isoformat()
+    # Update metadata — last_scraped tracks when the scraper ran (used as cutoff next run)
+    # last_updated is only bumped when new entries are actually added
+    data["metadata"]["last_scraped"] = datetime.now().isoformat()
+    if added > 0:
+        data["metadata"]["last_updated"] = datetime.now().isoformat()
 
     if added > 0:
         data["actions"].extend(new_actions)
