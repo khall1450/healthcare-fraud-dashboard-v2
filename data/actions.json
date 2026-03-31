@@ -2324,30 +2324,36 @@
       "entities": []
     },
     {
-      "id": "media-2026-02-18-denver-post-zynex-settlement",
-      "date": "2026-02-18",
+      "id": "doj-2026-02-zynex-npa",
+      "date": "2026-02-17",
       "agency": "DOJ",
-      "type": "Civil Action",
-      "title": "Denver Post: Zynex Admits to Fraud, Agrees to Forfeit $98 Million in DOJ Settlement",
-      "description": "Zynex Inc. entered a non-prosecution agreement with DOJ, admitting to conspiracy to commit health care fraud, securities fraud, and mail fraud. Zynex agreed to forfeit $98 million in billings ($85M from TRICARE, $13M from other payors) and pay $5M-$12.5M in penalties depending on future earnings.",
-      "amount": "$98M",
-      "amount_numeric": 98000000.0,
-      "officials": [],
-      "link": "https://www.denverpost.com/2026/02/18/zynex-justice-department-settlment-agreement/",
-      "link_label": "Denver Post",
+      "type": "Criminal Enforcement",
+      "title": "Zynex, Inc. Agrees to Non-Prosecution Agreement for Health Care, Securities, and Mail Fraud",
+      "description": "Zynex, Inc., a Colorado-based medical device company, entered a non-prosecution agreement (NPA) with the U.S. Attorney's Office for the District of Rhode Island, admitting to conspiracy to commit health care fraud, securities fraud, and mail fraud. Zynex fraudulently billed government and private payors for excessive and medically unnecessary medical device supplies, collecting more than $873 million in revenues (including $600M+ for supplies), the vast majority driven by fraud. Under the NPA — subject to bankruptcy court approval in Zynex's Chapter 11 proceedings — Zynex will pay $5M–$12.5M depending on future earnings, and forfeit all unpaid claims including more than $85 million billed to TRICARE during a suspension period and more than $13 million billed to other payors. Zynex also misled investors by concealing that revenues were driven by fraudulent billing. Former CEO Thomas Sandgaard and COO Anna Lucsok were separately indicted for related conduct.",
+      "amount": "$98M+",
+      "amount_numeric": 98000000,
+      "officials": [
+        "Charles C. Calenda (U.S. Attorney, D.R.I.)",
+        "Sara Miron Bloom (First AUSA)",
+        "Peter I. Roklan (AUSA)",
+        "Milind Shah (AUSA)"
+      ],
+      "link": "https://www.justice.gov/usao-ri/pr/zynex-inc-agrees-criminal-resolution-addressing-claims-millions-dollars-health-care",
+      "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
         "DME Fraud",
+        "Medicare",
         "Non-Prosecution Agreement",
+        "Securities Fraud",
         "TRICARE"
       ],
-      "state": "CO",
-      "source_type": "news",
+      "state": "CO, RI",
+      "source_type": "official",
       "auto_fetched": false,
       "entities": [
         "Zynex"
-      ],
-      "related_agency": "DOJ"
+      ]
     },
     {
       "id": "congress-2026-01-07-house-oversight-mn-fraud-part1",
