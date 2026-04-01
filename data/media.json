@@ -31,33 +31,6 @@
       "related_agency": "CMS"
     },
     {
-      "id": "media-2026-03-20-reason-medicaid-fraud-nationwide",
-      "date": "2026-03-20",
-      "agency": "Media",
-      "type": "Investigative Report",
-      "title": "Reason: Medicaid Fraud Isn't Just a Minnesota Problem — Five Other Major Schemes Exposed Nationwide",
-      "description": "Reason documents five major Medicaid fraud schemes beyond Minnesota's well-publicized cases: (1) a $92.8M black-market HIV drug ring in Maryland resulting in 38-year prison sentences; (2) Dr. Sanjeev Kumar performing 15,000+ unnecessary hysteroscopies in Memphis, billing $41M and reusing single-use instruments; (3) rheumatologist Jorge Zamora-Quezada falsely diagnosing arthritis, ordered to pay $28M in restitution; (4) a $12M urine drug testing scheme using patient recruiters to target Medicaid beneficiaries; and (5) former NFL player Keith Gray billing $328M to Medicare through a genetic testing kickback scheme, with Medicare paying approximately $54M on fraudulent claims.",
-      "amount": "$500M+",
-      "amount_numeric": 500000000,
-      "officials": [],
-      "link": "https://reason.com/2026/03/20/medicaid-fraud-isnt-just-a-minnesota-problem-here-are-5-other-recent-schemes/",
-      "link_label": "Reason Article",
-      "social_posts": [],
-      "tags": [
-        "Medicaid",
-        "Medicare",
-        "Nationwide",
-        "Kickbacks",
-        "Overbilling",
-        "Genetic Testing"
-      ],
-      "state": "",
-      "source_type": "news",
-      "auto_fetched": false,
-      "entities": [],
-      "related_agency": "DOJ"
-    },
-    {
       "id": "media-2026-03-11-wsj-autism-aba-medicaid",
       "date": "2026-03-11",
       "agency": "Media",
