@@ -2264,7 +2264,7 @@
       "agency": "Congress",
       "type": "Congressional Hearing",
       "title": "House Energy & Commerce Hearing: Common Schemes, Real Harm — Examining Medicare/Medicaid Fraud",
-      "description": "House Energy & Commerce Oversight and Investigations Subcommittee hearing on current trends in fraud schemes targeting Medicare and Medicaid, how transnational crime organizations are increasingly involved, and ways to better prevent and detect fraud. Witnesses testified on common Medicaid fraud schemes including non-emergency medical transportation, personal care services, autism therapy, and substance use disorder treatment.",
+      "description": "House Energy & Commerce Oversight and Investigations Subcommittee hearing examining current trends in fraud schemes targeting Medicare and Medicaid and how transnational crime organizations are increasingly involved. Cases highlighted included a $68 million adult daycare Medicaid fraud scheme in New York, a $650 million substance abuse treatment fraud in Arizona targeting homeless individuals and Native Americans, a $1.1 billion Medicare fraud scheme involving medically unnecessary amniotic wound grafts across Arizona and Nevada, and a $52 million genetic testing fraud in Florida. Chairman Joyce cited estimates of $100 billion in annual losses from detected fraud alone.",
       "amount": "",
       "amount_numeric": 0.0,
       "officials": [],
@@ -3789,34 +3789,6 @@
         "Improper Payments",
         "Medicaid",
         "Program Integrity"
-      ],
-      "entities": [],
-      "state": null,
-      "source_type": "official",
-      "auto_fetched": false
-    },
-    {
-      "id": "medpac-2025-ma-upcoding-analysis",
-      "date": "2025-03-15",
-      "agency": "Congress",
-      "type": "Report",
-      "title": "MedPAC/CRFB Analysis: Medicare Advantage Upcoding to Cost $44B in 2025; $1.3 Trillion Over Decade",
-      "description": "MedPAC found upcoding will increase Medicare payments to private insurers by an estimated 11% ($44 billion) in 2025. CRFB estimated MA overpayments of $1.3 trillion over the next decade. CMS Administrator Oz pledged to go after upcoding during his Senate confirmation.",
-      "amount": "~$40B/year",
-      "amount_numeric": 40000000000.0,
-      "officials": [
-        "Dr. Mehmet Oz"
-      ],
-      "link": "https://www.crfb.org/blogs/new-data-suggests-ma-overpayments-13-trillion-over-next-decade",
-      "link_label": "CRFB Analysis",
-      "social_posts": [],
-      "tags": [
-        "Improper Payments",
-        "Medicare",
-        "Medicare Advantage",
-        "Program Integrity",
-        "Risk Adjustment",
-        "Upcoding"
       ],
       "entities": [],
       "state": null,
