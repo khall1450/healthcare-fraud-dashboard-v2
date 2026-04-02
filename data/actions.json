@@ -3628,8 +3628,8 @@
       "date": "2025-05-12",
       "agency": "DOJ",
       "type": "Structural/Organizational",
-      "title": "DOJ Criminal Division Names Health Care Fraud Top Enforcement Priority in New White-Collar Plan",
-      "description": "DOJ's Criminal Division head Matthew Galeotti announced the department's first-ever White-Collar Enforcement Plan, explicitly naming 'waste, fraud, and abuse, including health care fraud and federal program fraud' as the number one enforcement priority. The plan also updated the Corporate Enforcement Policy, revised monitor selection guidance, and expanded the DOJ Whistleblower Pilot Program to cover tips about health care fraud involving public health care programs and fraud against patients and private insurers.",
+      "title": "DOJ Criminal Division Names Health Care Fraud an Enforcement Priority",
+      "description": "DOJ Criminal Division head Matthew Galeotti named \"waste, fraud, and abuse, including health care fraud\" as an enforcement priority in the division's white-collar enforcement plan.",
       "amount": "",
       "amount_numeric": 0.0,
       "officials": [
@@ -3639,6 +3639,8 @@
       "link_label": "DOJ White-Collar Enforcement Plan (PDF)",
       "social_posts": [],
       "tags": [
+        "Medicaid",
+        "Medicare",
         "Whistleblower"
       ],
       "state": null,
