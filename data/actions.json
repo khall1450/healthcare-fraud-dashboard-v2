@@ -1321,9 +1321,9 @@
       "agency": "DOJ",
       "type": "Criminal Enforcement",
       "title": "Two Executives Sentenced to 20 Years Each for $233M ACA Enrollment Fraud Targeting Homeless and Vulnerable",
-      "description": "Cory Lloyd, 47, of Stuart, Florida, and Steven Strong, 43, of Mansfield, Texas, were each sentenced to 20 years in federal prison and ordered to pay $180.6 million in restitution following their November 2025 jury convictions for a multi-year scheme defrauding the Affordable Care Act subsidy program of approximately $233 million. The defendants used 'street marketers' to fraudulently enroll homeless individuals, people experiencing mental health crises, and substance abuse patients into fully subsidized ACA plans to collect insurance commission payments. A third defendant, Dafud Iza, received 35 months. AG Pam Bondi called the scheme 'evil and unforgivable.'",
-      "amount": "$233M",
-      "amount_numeric": 233000000,
+      "description": "Cory Lloyd, 47, of Stuart, Florida, and Steven Strong, 43, of Mansfield, Texas, were each sentenced to 20 years in federal prison and ordered to pay $180.6 million in restitution following their convictions in a years-long scheme that sought more than $233 million in fraudulent Affordable Care Act subsidies. The defendants used street marketers to target vulnerable individuals, including people experiencing homelessness and those facing mental health or substance abuse challenges, and fraudulently enrolled them in fully subsidized ACA plans to collect insurance commissions. A third defendant, Dafud Iza, was sentenced to 35 months in prison.",
+      "amount": "$180.6M restitution",
+      "amount_numeric": 180600000,
       "officials": [
         "Pam Bondi",
         "Kash Patel (FBI Director)",
@@ -1348,7 +1348,7 @@
       "agency": "DOJ",
       "type": "Criminal Enforcement",
       "title": "Former NFL Player Keith Gray Convicted in $328M Medicare Genetic Testing Fraud Scheme",
-      "description": "A federal jury in Dallas convicted Keith J. Gray, 39, of McKinney, Texas\u00e2\u20ac\u201da former NFL/Carolina Panthers player\u00e2\u20ac\u201dand owner of Axis Professional Labs LLC and Kingdom Health Laboratory LLC, for conspiracy to defraud the United States, conspiracy to pay/receive health care kickbacks (five AKS counts), and three counts of money laundering. Gray billed Medicare approximately $328 million (Medicare paid ~$54 million) for medically unnecessary cardiovascular genetic tests by paying kickbacks to marketers for patient DNA samples, Medicare numbers, and signed physician orders. Gray laundered proceeds through luxury vehicle purchases.",
+      "description": "A federal jury in Dallas convicted Keith J. Gray, 39, of McKinney, Texas \u2014 a former NFL player and owner of Axis Professional Labs LLC and Kingdom Health Laboratory LLC \u2014 for his role in a $328 million cardiovascular genetic testing fraud scheme. Gray paid kickbacks to marketers for referrals of Medicare beneficiaries\u2019 DNA samples, personal information, and signed test orders from medical providers authorizing medically unnecessary genetic tests. Axis and Kingdom billed Medicare approximately $328 million and Medicare paid approximately $54 million. Gray also laundered some of the proceeds through luxury vehicle purchases.",
       "amount": "$328M",
       "amount_numeric": 328000000,
       "officials": [],
@@ -2278,9 +2278,9 @@
       "agency": "DOJ",
       "type": "Criminal Enforcement",
       "title": "Zynex, Inc. Agrees to Non-Prosecution Agreement for Health Care, Securities, and Mail Fraud",
-      "description": "Zynex, Inc., a Colorado-based medical device company, entered a non-prosecution agreement (NPA) with the U.S. Attorney's Office for the District of Rhode Island, admitting to conspiracy to commit health care fraud, securities fraud, and mail fraud. Zynex fraudulently billed government and private payors for excessive and medically unnecessary medical device supplies, collecting more than $873 million in revenues (including $600M+ for supplies), the vast majority driven by fraud. Under the NPA \u00e2\u20ac\u201d subject to bankruptcy court approval in Zynex's Chapter 11 proceedings \u00e2\u20ac\u201d Zynex will pay $5M\u00e2\u20ac\u201c$12.5M depending on future earnings, and forfeit all unpaid claims including more than $85 million billed to TRICARE during a suspension period and more than $13 million billed to other payors. Zynex also misled investors by concealing that revenues were driven by fraudulent billing. Former CEO Thomas Sandgaard and COO Anna Lucsok were separately indicted for related conduct.",
-      "amount": "$98M+",
-      "amount_numeric": 98000000,
+      "description": "Zynex, Inc., a Colorado-based medical device company, agreed to enter into a non-prosecution agreement with the U.S. Attorney\u2019s Office for the District of Rhode Island and admitted to participating in a conspiracy to commit health care fraud, securities fraud, mail fraud, and other violations. Zynex fraudulently obtained millions of dollars from government and private health care payors and patients by submitting excessive and improper claims for medical devices and supplies. The company collected more than $873 million for its products, including more than $600 million for supplies, and agreed to forfeit all unpaid claims submitted before Sept. 1, 2025, including more than $85 million billed to TRICARE during a suspension period and more than $13 million billed to other payors and patients. Former CEO Thomas Sandgaard and former COO Anna Lucsok were separately indicted for related conduct.",
+      "amount": "$873M+",
+      "amount_numeric": 873000000,
       "officials": [
         "Charles C. Calenda (U.S. Attorney, D.R.I.)",
         "Sara Miron Bloom (First AUSA)",
@@ -2292,7 +2292,6 @@
       "social_posts": [],
       "tags": [
         "DME",
-        "Medicare",
         "Non-Prosecution Agreement",
         "Securities Fraud",
         "TRICARE"
