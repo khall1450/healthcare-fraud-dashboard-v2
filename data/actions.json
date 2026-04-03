@@ -10,8 +10,8 @@
       "date": "2026-04-02",
       "agency": "DOJ",
       "type": "Criminal Enforcement",
-      "title": "Operation Never Say Die: 15 Defendants Charged in $50M+ Los Angeles Hospice Fraud; 221 CA Providers Suspended",
-      "description": "DOJ and FBI executed arrests and search warrants in the Los Angeles area, charging 15 defendants in connection with more than $50 million in alleged hospice fraud. Eight were arrested, including the owners of a hospice that reported a 97% five-year patient survival rate while billing Medicare for end-of-life care. Healthy beneficiaries were allegedly paid $300 per month in kickbacks to pose as terminal patients. Total provider suspensions in California reached 221.",
+      "title": "8 Arrested in Health Care Fraud Takedown, Including Owners of Hospices that Billed Taxpayers Millions of Dollars to Serve the \u2018Dying\u2019",
+      "description": "In coordination with the Vice President's Task Force to Eliminate Fraud, federal prosecutors announced a Southern California health care fraud takedown in which eight defendants were arrested and additional defendants were charged. DOJ says the cases involved more than $50 million in intended losses, including from sham hospices that billed Medicare for non-terminal patients and private health plan fraud tied to medically unnecessary or nonexistent services.",
       "amount": "$50M+",
       "amount_numeric": 50000000.0,
       "officials": [
@@ -22,7 +22,9 @@
       "link_label": "DOJ Press Release",
       "social_posts": [],
       "tags": [
-        "Medicare"
+        "Hospice",
+        "Medicare",
+        "Unnecessary Procedures"
       ],
       "entities": [],
       "state": "CA",
