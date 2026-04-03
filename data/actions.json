@@ -3116,8 +3116,8 @@
       "date": "2025-08-25",
       "agency": "HHS-OIG",
       "type": "Report",
-      "title": "HHS-OIG: Medicare Remote Patient Monitoring Payments Exceed $500M; Flags Suspicious Billing Patterns",
-      "description": "HHS-OIG found Medicare payments for remote patient monitoring exceeded $500 million in 2024. OIG identified billing patterns warranting scrutiny: practices billing for a high proportion of patients with no prior history with the practice, and practices billing for multiple monitoring devices per patient per month. OIG noted that monitoring billing patterns can help CMS identify suspicious activity and protect program integrity.",
+      "title": "HHS-OIG Calls For Increased Oversight of Remote Patient Monitoring in Medicare",
+      "description": "HHS-OIG reported that rapid growth in remote patient monitoring warrants additional oversight to help prevent fraud, waste, and abuse. Medicare payments for remote patient monitoring exceeded $500 million in 2024, continuing an upward trend, and use of these services could expand significantly in the future. HHS-OIG developed several measures to monitor billing and help safeguard the Medicare program.",
       "amount": "$500M+",
       "amount_numeric": 500000000.0,
       "officials": [],
@@ -3125,7 +3125,8 @@
       "link_label": "HHS-OIG Report",
       "social_posts": [],
       "tags": [
-        "Medicare"
+        "Medicare",
+        "Program Integrity"
       ],
       "entities": [],
       "state": null,
