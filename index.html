@@ -309,8 +309,10 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Bona Nova', Georgia, serif; }
         <i class="fa-solid fa-magnifying-glass search-icon"></i>
         <input type="text" id="searchInput" class="form-control search-input" placeholder="Search actions..." oninput="currentView === 'landscape' ? filterLandscape() : currentView === 'oversight' ? applyOversightFilters() : applyFilters()" />
       </div>
-      <!-- agencyFilter removed: enforcement tab is DOJ-only; restore select#agencyFilter here if multi-agency returns -->
       <div id="enforcementFilters" class="d-flex flex-wrap align-items-center gap-2">
+        <select class="form-select filter-select" id="agencyFilter" onchange="applyFilters()">
+          <option value="all">All Agencies</option>
+        </select>
         <select class="form-select filter-select" id="typeFilter" onchange="applyFilters()">
           <option value="all">All Types</option>
         </select>
@@ -689,12 +691,14 @@ function toggleTagFilter(tag) {
 
 function applyFilters() {
   const search   = document.getElementById('searchInput').value.trim().toLowerCase();
+  const agency   = document.getElementById('agencyFilter').value;
   const type     = document.getElementById('typeFilter').value;
   const state    = document.getElementById('stateFilter').value;
   const dateFrom = document.getElementById('dateFrom').value;
   const dateTo   = document.getElementById('dateTo').value;
 
   let filtered = enforcementActions.filter(a => {
+    if (agency !== 'all' && a.agency !== agency) return false;
     if (type   !== 'all' && a.type   !== type)   return false;
     if (state  !== 'all') {
       const states = (a.state || '').split(',').map(s => s.trim());
@@ -771,6 +775,7 @@ function applyOversightFilters() {
 
 function clearFilters() {
   document.getElementById('searchInput').value = '';
+  document.getElementById('agencyFilter').value = 'all';
   document.getElementById('typeFilter').value   = 'all';
   document.getElementById('stateFilter').value  = 'all';
   document.getElementById('dateFrom').value = '';
@@ -842,7 +847,7 @@ async function loadData() {
     allActions = data.actions;
     enforcementActions = allActions.filter(a => ENFORCEMENT_TYPES.has(a.type));
     oversightActions = allActions.filter(a => !ENFORCEMENT_TYPES.has(a.type));
-    // agencyFilter population removed; restore if multi-agency enforcement returns
+    populateFilterOptions('agencyFilter', enforcementActions, 'agency');
     populateFilterOptions('typeFilter', enforcementActions, 'type');
     populateStateFilter('stateFilter', enforcementActions);
     populateFilterOptions('oversightAgencyFilter', oversightActions, 'agency');
