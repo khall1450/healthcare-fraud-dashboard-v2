@@ -51,9 +51,7 @@
         "Medicare",
         "Opioids"
       ],
-      "entities": [
-        "Serenity Keeper's LLC"
-      ],
+      "entities": [],
       "state": "KY",
       "source_type": "official",
       "auto_fetched": false,
